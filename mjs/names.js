@@ -33,7 +33,7 @@ function createName(firstName, lastName) { // la funzione crea un oggetto con no
 
 export default createName; // (metodo 1)
 
-/* (metodo 2)
+/* (metodo 2 - non viene assegnato il nome alla funzione che però viene copiata per intero)
 
 export default function createName(firstName, lastName) {
   const name = {};
@@ -41,5 +41,5 @@ export default function createName(firstName, lastName) {
   name.last_Name = lastName;
   return name;
 }
-    
+
 */
