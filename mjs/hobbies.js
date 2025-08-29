@@ -12,9 +12,9 @@ function createHobbies(hobbyOne, hobbyTwo, hobbyThree) { // la funzione crea un 
   /* 
   
   OPPURE
-  
-  const hobbiesList = ["hobbyOne", "hobbyTwo", "hobbyThree"];
-  return hobbiesList; 
+
+  const hobbiesList = [hobbyOne, hobbyTwo, hobbyThree];
+  return hobbiesList;
 
 
   OPPURE DIRETTAMENTE
