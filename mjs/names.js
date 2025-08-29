@@ -23,7 +23,23 @@ function createName(firstName, lastName) { // la funzione crea un oggetto con no
 
     */
 
-
 }
 
-export { createName };
+// EXPORT DELLA FUNZIONE NOMINATA
+// export { createName }; 
+
+
+// EXPORT DELLA FUNZIONE DEFAULT
+
+export default createName; // (metodo 1)
+
+/* (metodo 2)
+
+export default function createName(firstName, lastName) {
+  const name = {};
+  name.first_Name = firstName;
+  name.last_Name = lastName;
+  return name;
+}
+    
+*/

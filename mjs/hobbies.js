@@ -25,4 +25,4 @@ function createHobbies(hobbyOne, hobbyTwo, hobbyThree) { // la funzione crea un 
 
 }
 
-export { createHobbies };
+export { createHobbies }; // EXPORT DELLA FUNZIONE NOMINATA

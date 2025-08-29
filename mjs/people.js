@@ -1,8 +1,16 @@
-import { createName } from "./names.js";
+//import { createName } from "./names.js"; MODALITA' NOMINATA
+
+//MODALITA' DEFAULT
+import createName from "./names.js"; //eventualmente il nome della funzione si può cambiare
+
+// MODALITA' NOMINATA
 import { createHobbies } from "./hobbies.js";  
 
 //console.log(createName("Mario", "Rossi"));
 //console.log(createHobbies("Calcio", "Cucina", "Lettura"));
+
+
+
 
 
 function createPerson(firstname, lastname, [hobbyOne, hobbyTwo, hobbyThree]) { // la funzione crea un oggetto con nome, cognome e hobby
@@ -12,6 +20,6 @@ function createPerson(firstname, lastname, [hobbyOne, hobbyTwo, hobbyThree]) { /
   }
   return Full_Person;
 }
-//console.log(createPerson());
+//console.log(createPerson()); da usare qualora venissero dati i valori all'interno della funzione
 
 console.log(createPerson("Gianluca", "Loddo", ["Sport", "Coding", "Music"]));
